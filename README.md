@@ -54,6 +54,7 @@ You can also use your own data and edit the ``reference_scan_path``, ``local_sca
 
 
 ## Citation
+To be updated...
 
 ## Acknowledgement
 We sincerely thank the two open source efforts [ScanContext](https://github.com/gisbi-kim/scancontext_tro?tab=readme-ov-file) and [CSF](https://github.com/jianboqi/CSF) for their contributions to the community.
