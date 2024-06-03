@@ -2,12 +2,25 @@
 
 using namespace std;
 
-int main()
+int main(int argc,char*argv[])
 {
-    string refPath = "/home/dxz/Co-viewContext/data/zhuoer-global.pcd";
-    string locPath = "/home/dxz/Co-viewContext/data/zhuoer1.pcd";
-    string trajPath = "/home/dxz/Co-viewContext/data/zhuoer1.txt";
-    string savePath = "/home/dxz/Co-viewContext/data/";
+    string refPath;
+    string locPath;
+    string trajPath;
+    string savePath;
+
+    if(argc == 5)
+    {
+        refPath = argv[1];
+        locPath = argv[2];
+        trajPath = argv[3];
+        savePath = argv[4];
+    }
+    else
+    {
+        cout << "Usage: ./demo reference.pcd local.pcd trajectory.txt savePath" << endl;
+        return -1;
+    }
 
     CoviewContext coviewContext;
     coviewContext.referncePCDPath = refPath;
@@ -23,6 +36,5 @@ int main()
     coviewContext.processReferenceCloud();
     coviewContext.processLocalCloud();
 
-    cout << "Hello, World!" << endl;
     return 0;
 }
