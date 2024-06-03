@@ -8,7 +8,6 @@
     - [4. Data preparation](#4-data-preparation)
   - [Citation](#Citation)
   - [Acknowledgement](#Acknowledgement)
-  - [Contact](#contact)
  
 ## Introduction
 This is the demo code of our work "A Base Map-Guided Global Localization Solution for Heterogeneous Multi-Robot Systems Using a Co-View Context Descriptor".
@@ -58,8 +57,3 @@ You can also use your own data and edit the ``reference_scan_path``, ``local_sca
 
 ## Acknowledgement
 We sincerely thank the two open source efforts [ScanContext](https://github.com/gisbi-kim/scancontext_tro?tab=readme-ov-file) and [CSF](https://github.com/jianboqi/CSF) for their contributions to the community.
-
-## Contact 
-Email: duanxz@whu.edu.cn
-
-Do not hesitate to contact the authors if you have any question or find any bugs.
