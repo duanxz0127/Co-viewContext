@@ -11,6 +11,7 @@
  
 ## Introduction
 This is the demo code of our work "A Base Map-Guided Global Localization Solution for Heterogeneous Multi-Robot Systems Using a Co-View Context Descriptor".
+
 We propose a base map-guided heterogeneous multi-robots localization solution. In our solution, the global localization of multi-robot systems is accomplished by localizing their local scans in relation to a pre-set base map. A novel Co-view Context descriptor with rotational invariance is developed to represent the characteristics of heterogeneous scans in a unified manner. The pre-set base map is divided into virtual scans, each of which generates a candidate Co-view Context descriptor. These descriptors are assigned to robots before operations to ensure proper functioning in case of communication failures. By matching the query Co-view Context descriptors of a working robot with the assigned candidate descriptors, the coarse localization is achieved. Finally, the refined localization is done through point cloud registration. 
 
 ![Workflow Chart](./images/workflow.jpg)
@@ -25,9 +26,9 @@ We propose a base map-guided heterogeneous multi-robots localization solution. I
 The code was tested on Ubuntu 18.04
 ### 1. Pre-requisite
    * [CMake](https://cmake.org/) version 3.10 or above
-   * [PCL](https://github.com/PointCloudLibrary/pcl) version 1.8.0
-   * [OpenCV](https://opencv.org/) version 3.2.0
-   * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) version 3.3.4
+   * [PCL](https://github.com/PointCloudLibrary/pcl) version 1.8.0 (other versions may also work)
+   * [OpenCV](https://opencv.org/) version 3.2.0 (other versions may also work)
+   * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) version 3.3.4 (other versions may also work)
    * [Boost](https://github.com/boostorg/boost) version 1.65 or above
 ### 2. Compile
 Clone this repository and build

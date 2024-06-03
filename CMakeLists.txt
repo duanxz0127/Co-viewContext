@@ -10,7 +10,6 @@ find_package(OpenMP REQUIRED)
 set(CSF_LIBRARY "${CMAKE_SOURCE_DIR}/3rdParty/libCSF.a")
 
 # pcl library
-# set(PCL_DIR "/home/dxz/pcl-1.13/share/pcl-1.13")
 find_package(PCL 1.8 REQUIRED COMPONENTS)
 include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
