@@ -1,3 +1,0 @@
-/home/dxz/Co-viewContext/build/CMakeFiles/rebuild_cache.dir
-/home/dxz/Co-viewContext/build/CMakeFiles/demo.dir
-/home/dxz/Co-viewContext/build/CMakeFiles/edit_cache.dir
