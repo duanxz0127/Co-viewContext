@@ -25,7 +25,7 @@ include_directories(${EIGEN3_INCLUDE_DIR})
 # Boost library
 find_package(Boost REQUIRED COMPONENTS filesystem)
 
-include_directories(./include)
+include_directories(include)
 
 # executable target
 add_executable(demo src/demo.cpp src/CoviewContext.cpp include/ScanContext/Scancontext.cpp)
