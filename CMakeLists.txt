@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 find_package(OpenMP REQUIRED)
 
 # CSF library
-set(CSF_LIBRARY "${CMAKE_SOURCE_DIR}/3rdParty/libCSF.a")
+set(CSF_LIBRARY "${CMAKE_SOURCE_DIR}/libs/libCSF.a")
 
 # pcl library
 find_package(PCL 1.8 REQUIRED COMPONENTS)
